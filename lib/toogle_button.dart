@@ -43,7 +43,7 @@ class _ToogleButtonWidgetState extends State<ToogleButtonWidget> {
                 ),
               ),
               AnimatedPositioned(
-                left: isAnimated ? 208 : 8,
+                left: isAnimated ? width - 43 : 8,
                 top: 7,
                 duration: Duration(milliseconds: 700),
                 child: Center(

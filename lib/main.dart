@@ -2,6 +2,7 @@ import 'package:animation_flutter/animated_color_palette.dart';
 import 'package:animation_flutter/animated_shopping_cart_button.dart';
 import 'package:animation_flutter/list_animation.dart';
 import 'package:animation_flutter/loading_animation.dart';
+import 'package:animation_flutter/login_page.dart';
 import 'package:animation_flutter/toogle_button.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: ToogleButtonWidget(),
+      home: LoginView(),
     );
   }
 }
